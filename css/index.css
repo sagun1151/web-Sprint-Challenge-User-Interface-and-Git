@@ -74,12 +74,14 @@ p {
     width: 800px;
     margin: 0 auto;
 }
-/*Hope page styles*/
-.top-bar{
+
+/*nav header style*/
+
+ .top-bar{
     display:flex;
     justify-content: space-between;
     margin: 2% 0;
-}
+} 
 
 .top-bar img{
     margin-bottom:2%;
@@ -101,10 +103,14 @@ p {
     color:black;
     text-decoration: none;
     font-size: 14px;
+    margin-right:4%;
 }
 .top-pic {
     margin-bottom:2%;
 }
+
+/*Home page styles*/
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -191,8 +197,56 @@ p {
 
 /*about page styles*/
 
+.about{
+    border-bottom: 1px dashed black;
+    padding-bottom:2%;
+}
+.about h2, .about p{
+    margin-left:2%;
+} 
 
+.middle{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    justify-content: space-around;
 
+}
+
+.middle section{
+    width: 47%;
+    display: flex;
+    flex-direction:column;
+    /*justify-content: center; */
+    margin-top:3%;
+    border-bottom: 1px dashed black;
+}
+.middle img, .middle p{
+    margin-bottom: 3%;
+}
+.lm{
+    text-align: center;
+    width:30%;
+    border: 2px solid black;
+    margin-bottom: 4%;
+    margin-top:1%;
+    padding:2%;
+    border-radius: 10%;
+    text-decoration: none;
+    color:black;
+
+}
+
+.bottom{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-evenly; */
+    /* justify-content: space-around; */
+    margin-left:1%;
+    margin-top:5%;
+    margin-bottom:5%;
+
+} 
 
 
 /*both footer styles*/
